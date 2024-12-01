@@ -1,0 +1,55 @@
+.download{
+  color: black;
+  font-size: large;
+  background-color: rgb(87, 228, 134);
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 5px;
+  transition: 1s ease;
+  
+}
+.download:hover{
+  opacity: 0.5;
+}
+.download:active{
+  opacity: 0.1;
+}
+.fdown{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.center{
+  display: flex;
+  justify-content: center;
+
+}
+.fi{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  z-index: 100;
+}
+body{
+  padding-top: 150px;
+}
+.center{
+  margin-bottom: 70px;
+}
+.logo{
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.calld h1{
+  margin-left: 20px;
+  font-size: 36px;
+  color: rgb(114, 68, 68);
+}
+.calld .logo a{
+  padding: 10px;
+  margin: 50%;
+  color: black;
+}
+
